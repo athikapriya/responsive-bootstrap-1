@@ -1,0 +1,172 @@
+.nav-link:hover{
+    color: #30C39E !important;
+}
+.dropdown-item:hover{
+    color: #30C39E;
+}
+.dropdown-toggle:hover{
+    color: #30C39E !important;
+}
+.index{
+    color: #30c39e !important;
+}
+.nav-link{
+    letter-spacing: 2px;
+}
+.fa-rebel{
+    color:#2FBE9B;
+}
+header{
+    background-image: linear-gradient(to right, rgba(0, 0, 0,.5), rgba(0, 0, 0,.5)), url(../Photos/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content{
+    margin-top: 230px;
+    padding-bottom: 100px;
+}
+.name{
+    letter-spacing: 1px;
+    text-shadow:rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    line-height: 1.2;
+    text-shadow: 2px 2px #757575;
+}
+.john{
+    color: #30C39E;
+    font-weight:  800;
+    text-shadow: 2px 2px #6c6464;
+}
+.web{
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px #757575;
+}
+.header-text{
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.button{
+    margin-top: 1.5em;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin-right: 5px;
+}
+.button:hover{
+    background-color: #30C39E;
+}
+.btn-group-vertical{
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+.about-section{
+    letter-spacing: 3px;
+}
+.about-text{
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+.about-button{
+    background-color: #2FBE9B;
+    color: white;
+}
+.about-button:hover{
+    background-color: aliceblue;
+    color: #000000;
+    border: 1px solid black;
+}
+.about-image{
+    height: 90%;
+}
+.service{
+    background-color: #2FBE9B;
+    padding-bottom: 10px;
+}
+.service-section{
+    letter-spacing: 3px;
+}
+.service-i{
+    color:#ffffff;
+}
+.service-p{
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+.experience-section{
+    letter-spacing: 3px;
+}
+.experience{
+    background-color: #F8F9FA;
+}
+.year{
+    background-color: #2FBE9B;
+    margin-left: 30px;
+}
+.exp-p{
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: #666;
+}
+.blog{
+    background-image: url(../Photos/dr.1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog-p{
+    letter-spacing: 2px;
+}
+.blog-bg{
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-bottom:15px;
+}
+.read{
+    color:#2FBE9B;
+}
+.text{
+    background-color: #0A8EA0;
+}
+.text-p{
+    letter-spacing: 2px;
+}
+.textp{
+    color: #DDDDDD;
+    letter-spacing: 1px;
+}
+.text-button1{
+    background-color: #000;
+}
+.text-button1:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.text-button2:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.address-i{
+    color:#2FBE9B;
+}
+.submit{
+    background-color: #0A8EA0;
+}
+footer{
+    background-color: #000000;
+}
+.footer-i{
+    color:#FFFFFF;
+    padding: 10px;
+    background-color: #3e393a;
+}
+.map{
+    border: 7px solid #e3dfdf;
+    border-radius: 5px;
+    min-width: 60%;
+}
+footer i{
+    border-radius: 50%;
+}

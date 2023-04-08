@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Responsive Website</title>
+    <!--meta tag-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon" href="assets/Photos/favicon.png">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="index.html">
+                <i class="fa-brands fa-rebel py-3"></i>
+                <h1 class="mx-3 text-white">Activity</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize text-end">
+                    <li class="nav-item">
+                        <a class="nav-link active index fs-6" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-white" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-white" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="btn  dropdown-toggle fs-6 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                              </a>
+
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">project</a></li>
+                                <li><a class="dropdown-item" href="#">Quoted Text</a></li>
+                              </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- header section start -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container header-content ">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <P class="text-white fs-5 fw-semibold name">My Name Is</P>
+                            <h2 class=" display-2 john">John Watson</h2>
+                            <p class="text-white fw-semibold fs-4 web">Web Designer And Developer</p>
+                            <p class="text-white lh-lg header-text">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.</p>
+                            <div class="d-flex">
+                                <button type="button" class="btn  text-white button text-center">Read More</button>
+                                <button type="button" class="btn  text-white button text-center">Contact Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <!-- header section end -->
+
+    <!--sidebar Section Start-->
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-angles-right py-3"></i>
+        </button>
+        <button type="button" class="btn btn-dark">
+            <i class="fa-sharp fa-solid fa-arrow-left"></i><br/>
+            <p>Back</p>
+        </button>
+        <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-download"></i><br/>
+            <p>Download</p>
+        </button>
+        <button type="button" class="btn btn-dark">
+            <i class="fa-solid fa-cart-shopping"></i><br/>
+            <p>Buy</p>
+        </button>
+    </div>
+    <!-- sidebar section end -->
+
+    <!--About Section Start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center py-5 h1 about-section">About Me</div>
+        </div>
+        <div class="row py-3">
+            <div class="col-md-4">
+                <P class="text-dark fs-5 fw-semibold lh-base">Nulla Viverra Pharetra Sem, Eget Pulvinar Neque Pharetra Ac Int.</P>
+                <p class="text-secondary about-text">Nulla viverra pharetra sem, eget pulvinar neque et pharetra ac int. lorem ipsum Vestibulum. Sed placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat ipsum volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus pharetra ac .</p>
+                <button type="button" class="btn about-button text-center m-2">Download CV
+                    <i class="fa-solid fa-download"></i><br/>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <img src="Photos/about.jpg" class="img-fluid about-image" alt="about" title="about">
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="clearflix">
+                        <p class="float-start fw-semibold fs-5">Designing & Developing</p>
+                        <P class="float-end fw-semibold fs-5">95%</P>
+                    </div>
+                    <p  class="text-secondary about-text">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum</p>
+                </div>
+                <div class="row">
+                    <div class="clearflix ">
+                        <p class="float-start fw-semibold fs-5">Java And Scripting</p>
+                        <P class="float-end fw-semibold fs-5">85%</P>
+                    </div>
+                    <p  class="text-secondary about-text">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum</p>
+                </div>
+                <div class="row">
+                    <div class="clearflix ">
+                        <p class="float-start fw-semibold fs-5">Photoshop & Editing</p>
+                        <P class="float-end fw-semibold fs-5">90%</P>
+                    </div>
+                    <p  class="text-secondary about-text">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About Section end-->
+
+    <!--Services Section Start-->
+    <div class="container-fluid service">
+        <div class="row ">
+            <div class="col-md-12 text-center text-white py-5 h1 service-section">Services</div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-gear service-i p-1"></i>
+                        <p class="text-white fw-semibold h5 mx-2">UX/UI Designer</p>
+                    </div>
+                    <P class="text-white py-2 service-p">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</P>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-mobile service-i p-1"></i>
+                        <p class="text-white fw-semibold h5 mx-2">Mobile Apps</p>
+                    </div>
+                    <P class="text-white py-2 service-p">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</P>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-laptop service-i p-1"></i>
+                        <p class="text-white fw-semibold h5 mx-2">Web Developer</p>
+                    </div>
+                    <P class="text-white py-2 service-p">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</P>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-camera service-i p-1"></i>
+                        <p class="text-white fw-semibold h5 mx-2">Photoshop</p>
+                    </div>
+                    <P class="text-white py-2 service-p">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</P>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-headphones service-i p-1"></i>
+                        <p class="text-white fw-semibold h5 mx-2">Software</p>
+                    </div>
+                    <P class="text-white py-2 service-p">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</P>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-cloud service-i p-1"></i>
+                        <p class="text-white fw-semibold h5 mx-2">Graphic Design</p>
+                    </div>
+                    <P class="text-white py-2 service-p">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</P>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--Services Section end-->
+
+     <!--Experience Section start-->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center py-5 h1 experience-section">Experience</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 px-5">
+                <img src="Photos/exp1.jpg" alt="exp" title="exp" class="img-fluid">
+                <div class="experience">
+                    <div class="m-4">
+                        <div class="d-flex">
+                            <p class=" text-dark fw-semibold h5 ">Web Designer</p>
+                            <p class=""><span class="badge  year">2007-2010</span></p>
+                        </div>
+                        <div class="row">
+                            <p class=" exp-p ">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 ">
+                <img src="Photos/exp2.jpg" alt="exp" title="exp" class="img-fluid">
+                <div class="experience">
+                    <div class="m-4">
+                        <div class="d-flex">
+                            <p class=" text-dark fw-semibold h5 ">App Developer</p>
+                            <p class=""><span class="badge  year">2007-2010</span></p>
+                        </div>
+                        <div class="row">
+                            <p class=" exp-p ">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 ">
+                <img src="Photos/exp3.jpg" alt="exp" title="exp" class="img-fluid">
+                <div class="experience">
+                    <div class="m-4">
+                        <div class="d-flex">
+                            <p class=" text-dark fw-semibold h5 ">Web Developer</p>
+                            <p class=""><span class="badge  year">2007-2010</span></p>
+                        </div>
+                        <div class="row">
+                            <p class=" exp-p ">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--Experience Section end-->
+
+     <!--Blog section start-->
+     <div class="container-fluid blog my-5 pb-5">
+        <div class="row">
+            <div class="col-md-12 text-center text-white  py-5 h1 service-section">Blog</div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-white fw-semibold h3 blog-p">I Write Beautiful Things</p>
+                </div>
+                <div class="col-md-6">  
+                    <p class="text-white-50 fs-6 lh-lg">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3  px-3 blog-bg py-3  ">
+                    <div class="d-flex ">
+                        <p class=" text-dark fw-semibold h5 mt-4">Website Design</p>
+                        <p class=""><span class="badge  year mt-4">25th June</span></p>
+                    </div>
+                    <div class="row">
+                        <p class=" exp-p ">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                    </div>
+                    <a href="#" class="read text-decoration-none fw-semibold">Read More...</a>
+                </div>
+                <div class="col-md-3 offset-md-1 px-3 py-3 blog-bg ">
+                    <div class="d-flex">
+                        <p class=" text-dark fw-semibold h5 mt-4">Mobile Application</p>
+                        <p class=""><span class="badge  year mt-4">25th June</span></p>
+                    </div>
+                    <div class="row">
+                        <p class=" exp-p ">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                    </div>
+                    <a href="#" class="read text-decoration-none fw-semibold">Read More...</a>
+                </div>
+                <div class="col-md-3 offset-md-1 px-3 py-3 blog-bg ">
+                    <div class="d-flex">
+                        <p class=" text-dark fw-semibold h5 mt-4">Web Development</p>
+                        <p class=""><span class="badge  year mt-4">25th June</span></p>
+                    </div>
+                    <div class="row">
+                        <p class=" exp-p ">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc.</p>
+                    </div>
+                    <a href="#" class="read text-decoration-none fw-semibold">Read More...</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--Blog section end-->
+
+     <!--Project section start-->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center py-5 h1 about-section">Projects</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="Photos/exp1.jpg" alt="exp" title="exp" class="img-fluid m-2">
+            </div>
+            <div class="col-md-3">
+                <img src="Photos/exp2.jpg" alt="exp" title="exp" class="img-fluid m-2">
+            </div>
+            <div class="col-md-3">
+                <img src="Photos/exp3.jpg" alt="exp" title="exp" class="img-fluid  m-2">
+            </div>
+            <div class="col-md-3">
+                <img src="Photos/exp1.jpg" alt="exp" title="exp" class="img-fluid  m-2">
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-3">
+                <img src="Photos/exp2.jpg" alt="exp" title="exp" class="img-fluid  m-2">
+            </div>
+            <div class="col-md-3">
+                <img src="Photos/exp3.jpg" alt="exp" title="exp" class="img-fluid  m-2">
+            </div>
+            <div class="col-md-3">
+                <img src="Photos/exp1.jpg" alt="exp" title="exp" class="img-fluid  m-2">
+            </div>
+            <div class="col-md-3">
+                <img src="Photos/exp2.jpg" alt="exp" title="exp" class="img-fluid m-2">
+            </div>
+        </div>
+    </div>
+     <!--Project section end-->
+
+     <!--Text Section start-->
+     <div class="container-fluid ">
+        <div class="row">
+            <div class="text ">
+                <div class="col-md-12 text-center text-white fw-semibold mt-5 mb-4 h3 text-p">Ulvinar Neque Pharetra Ac Int. Placerat</div>
+                <div class="col-md-6 offset-md-3  text-center lh-lg textp">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor. Vestibulum at dui nunc. Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus.</div>
+                <div class="d-flex justify-content-center mb-5">
+                    <button type="button" class="btn  text-white text-button1  text-center px-3 py-2 mx-2 mt-3">My work</button>
+                    <button type="button" class="btn  text-dark text-button2 bg-white px-3 py-2 mx-2 text-center mt-3">Hire Me</button>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--Text Section end-->
+
+     <!--contact-section start-->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center py-5 h1 about-section text-dark">Contact</div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <P class="text-dark fw-semibold h4 mx-3 mb-3">Address Info</P>
+                <div class="d-flex">
+                    <i class="fa-solid fa-location-dot mx-4 my-1 address-i"></i>
+                    <address class="text-secondary mx-3">3rd Floor, BDBL Bhaban, East 12,<br/>
+
+                        Dhaka 1215.</address>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-phone mx-4 my-1 address-i"></i>
+                    <p class="text-secondary mx-3">+112 367 896 2449</p>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-envelope mx-4 my-1 address-i"></i>
+                    <p class="text-secondary mx-3">mail@gmail.com</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9024424301388!2d90.39108011493316!3d23.75085808458916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bd552c2b3b%3A0x4e70f117856f0c22!2sBASIS%20Institute%20of%20Technology%20%26%20Management%20(BITM)!5e0!3m2!1sen!2sbd!4v1679957785361!5m2!1sen!2sbd" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <P class="text-dark fw-semibold h4 my-3">Get In Touch</P>
+                      <div class="mb-3 row">
+                        <label for="inputname" class="col-sm-2 col-form-label d-flex">
+                            <i class="fa-solid fa-user mx-3 my-1 index"></i>
+                            <p class="fw-semibold fs-6">Name</p>
+                        </label>
+                        <div class="col-sm-10">
+                          <input type="name" class="form-control" id="inputname" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputemail" class="col-sm-2 col-form-label d-flex">
+                            <i class="fa-solid fa-envelope mx-3 my-1 index"></i>
+                            <p class="fw-semibold fs-6">Email</p>
+                        </label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                     </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputnumber" class="col-sm-2 col-form-label d-flex">
+                            <i class="fa-solid fa-phone mx-3 my-1 index"></i>
+                            <p class="fw-semibold fs-6">Phone</p>
+                        </label>
+                        <div class="col-sm-10">
+                          <input type="number" class="form-control" id="inputnumber" placeholder="Phone Number">
+                     </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputtext" class="col-sm-2 col-form-label d-flex">
+                            <i class="fa-solid fa-pen mx-3 my-1 index"></i>
+                            <p class="fw-semibold fs-6">Massage</p>
+                        </label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Massage Me.."></textarea>
+                     </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 offset-md-10">
+                            <button type="button" class="btn  text-white button text-center submit flex-end">Submit</button>
+                        </div> 
+                    </div>
+            </div>
+        </div>
+     </div>
+     <!--contact-section end-->
+
+     <!--Footer Section start-->
+     <footer class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-4 offset-md-4  ">
+                <ul class="d-flex list-unstyled justify-content-center  mt-5 mb-3">
+                    <li><a href="#"><i class="fa-brands fa-facebook mx-2 footer-i"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram mx-2 footer-i"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube mx-2 footer-i"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter mx-2 footer-i"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest mx-2 footer-i"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="text-center text-secondary mb-5">© 2018 Activity. All Rights Reserved | Design by W3layouts</p>
+            </div>
+        </div>
+     </footer>
+     <!--Footer Section End-->
+     
+    <!--my js-->
+    <script src="assets/js/script.js"></script>
+    <!--bootstrap js-->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
